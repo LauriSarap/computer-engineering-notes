@@ -1,0 +1,16 @@
+# C
+*.o
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.lib
+*.def
+*.exp
+main
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
