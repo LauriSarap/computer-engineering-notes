@@ -1,0 +1,12 @@
+{
+    "id": "sim_engine",
+    "type": "package",
+    "value": {
+        "author": "Lauri Sarap",
+        "description": "Simulation engine for computer architecture",
+        "language": "cpp"
+    },
+    "lang.cpp": {
+        "cflags": ["-std=c++20"]
+    }
+}

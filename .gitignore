@@ -1,4 +1,4 @@
-# C
+# C/C++
 *.o
 *.exe
 *.out
@@ -9,8 +9,14 @@
 *.def
 *.exp
 main
+.DS_Store
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
+
+# Bake build artifacts
+.bake_cache/
+bin/
+*.bake_config.h

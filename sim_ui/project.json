@@ -1,0 +1,13 @@
+{
+    "id": "sim_ui",
+    "type": "application",
+    "value": {
+        "author": "Lauri Sarap",
+        "description": "Simulation UI for computer architecture",
+        "language": "cpp",
+        "use": ["sim_engine"]
+    },
+    "lang.cpp": {
+        "cflags": ["-std=c++20"]
+    }
+}

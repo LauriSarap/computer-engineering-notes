@@ -1,0 +1,5 @@
+CompileFlags:
+  Add:
+    - -I/home/lauri/dev/computer-engineering/sim_engine/include
+    - -I/home/lauri/dev/computer-engineering/sim_ui/include
+    - -std=c++20
