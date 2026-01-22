@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.cppStandard": "c++20",
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.bake_cache": true,
+        "**/bin": true
+    }
+}

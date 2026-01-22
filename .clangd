@@ -1,5 +1,19 @@
 CompileFlags:
   Add:
-    - -I/home/lauri/dev/computer-engineering/sim_engine/include
-    - -I/home/lauri/dev/computer-engineering/sim_ui/include
     - -std=c++20
+
+---
+If:
+  PathMatch: sim_engine/.*
+CompileFlags:
+  Add:
+    - -I../include
+    - -I../../sim_ui/include
+
+---
+If:
+  PathMatch: sim_ui/.*
+CompileFlags:
+  Add:
+    - -I../include
+    - -I../../sim_engine/include

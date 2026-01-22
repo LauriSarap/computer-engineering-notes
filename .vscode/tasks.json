@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "bake",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "bake clean",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run sim_ui",
+            "type": "shell",
+            "command": "bake run sim_ui",
+            "problemMatcher": []
+        }
+    ]
+}

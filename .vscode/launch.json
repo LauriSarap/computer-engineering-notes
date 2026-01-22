@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug sim_ui",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/sim_ui/bin/x86_64-linux/debug/sim_ui",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build",
+            "MIMode": "gdb"
+        }
+    ]
+}
